@@ -1,0 +1,63 @@
+body {
+	font-family:$font-roboto  ;
+	font-weight: 300;
+	background-image: repeating-linear-gradient(90deg, $white, $white 20px, $beige 20px, $beige 40px) ;
+	font-size: 16px;
+
+	/* media queries (desktops, 1200px and up) */
+    @media (max-width: $mediaDesktop-1200) {
+        font-size: 14px;
+    }
+
+    /* media queries (phones, 576px and up) */
+    @media (max-width: $mediaPhones-576) {
+        font-size: 10px;
+    }
+}
+
+html {
+	font-size: 18px;
+	width: 100%;
+	min-width: 375px;
+	font-family: $font-barlow;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin: 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-barlow;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+h4 {
+	font-size: 1rem;
+}
+
+h5 {
+	font-size: .8rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.contendor {
+	width: 90%;
+	max-width: 75em;
+	margin: 1.25em auto;
+	display: grid;
+}

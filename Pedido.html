@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Pedido</title>
+    <link rel="icon" type="images/png" href="images/icono/ice-cream-cone.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/dc91aac465.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="contenedor">
+        <!-- Cabecera -->
+
+<header class="header">
+    <div class="logo">
+        <p class="iniciales-logo">HP</p>
+        <h1>Helados PEPE</h1>
+    </div>
+    <!-- menu -->
+    <nav class="menu" data-aos="fade-up" data-aos-duration="3000">
+        <a href="index.html">Inicio</a>
+        <a href="Producto.html">Sabores</a>
+        <a href="Contacto.html">Contacto</a>
+        <a href="Pedido.html">Pedido</a>
+        <a href="sobre.html">Historia</a>
+</nav>
+</header>
+
+    <div class="container">
+        <div class="row mt-5 mb-5 justify-content-center">
+            <div class="col-sm-8 pt-5 pb-5" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+
+                <h1 class="text-center">Pedido</h1>
+                <img src="./images/img_comp/IMG-20221231-WA0102.jpg" class="img-fluid mx-auto d-block mt-5 mb-5">
+
+            </div>
+            <!-- Formulario -->
+            <form>
+                <div class="form-row mt-2 mb-2">
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Apellido">
+                    </div>
+                </div>
+                <div class="form-row mt-2 mb-2">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Telefono/Celular">
+                    </div>
+                    <div class="col">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Direccion">
+                </div>
+                <div class="form-row mt-2 mb-2">
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="inputCity" placeholder="Ciudad">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <input type="text" class="form-control" id="inputstate" placeholder="Provincia">
+                  </div>
+                  <div class="form-group col-md-2">
+                    <input type="text" class="form-control" id="inputZip" placeholder="Cod. Postal">
+                  </div>
+                </div>
+
+                <fieldset class="form-group">
+                    <div class="row">
+                      <legend class="col-form-label col-sm-2 pt-0">Medidas</legend>
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="medida" id="medida1" value="option1" checked>
+                          <label class="form-check-label" for="medida1">
+                            1KG 
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="medida" id="medida2" value="option2">
+                          <label class="form-check-label" for="medida2">
+                            1/2KG
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="medida" id="medida3" value="option3" >
+                          <label class="form-check-label" for="medida3">
+                            1/4KG
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="form-group">
+                    
+                    <label class="my-1 mr-2" for="generos">Elegi 1er sabor:</label>
+                    <select class="custom-select my-1 mr-sm2" name="genero" id="genero">
+                        <option selected>Elegir... </option>
+                        <option value="Almendrado">Almendrado</option>
+                        <option value="BS">Banana split</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Chocotorta">Chocotorta</option>
+                        <option value="CrAm">Crema Americana</option>
+                        <option value="DDL">Dulce de leche</option>
+                        <option value="Frutilla">Frutilla</option>
+                        <option value="Limon">Limon</option>
+                        <option value="Oreo">Oreo</option>
+                        <option value="Vainilla">Vainilla</option>
+                    </select>
+                    <label class="my-1 mr-2" for="generos">Elegi 2do sabor:</label>
+                    <select class="custom-select my-1 mr-sm2" name="genero" id="genero">
+                        <option selected>Elegir... </option>
+                        <option value="Almendrado">Almendrado</option>
+                        <option value="BS">Banana split</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Chocotorta">Chocotorta</option>
+                        <option value="CrAm">Crema Americana</option>
+                        <option value="DDL">Dulce de leche</option>
+                        <option value="Frutilla">Frutilla</option>
+                        <option value="Limon">Limon</option>
+                        <option value="Oreo">Oreo</option>
+                        <option value="Vainilla">Vainilla</option>
+                    </select>
+        
+                    <label class="my-1 mr-2" for="generos">Elegi 3er sabor:</label>
+                    <select class="custom-select my-1 mr-sm2" name="genero" id="genero">
+                        <option selected>Elegir... </option>
+                        <option value="Almendrado">Almendrado</option>
+                        <option value="BS">Banana split</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Chocotorta">Chocotorta</option>
+                        <option value="CrAm">Crema Americana</option>
+                        <option value="DDL">Dulce de leche</option>
+                        <option value="Frutilla">Frutilla</option>
+                        <option value="Limon">Limon</option>
+                        <option value="Oreo">Oreo</option>
+                        <option value="Vainilla">Vainilla</option>
+                    </select>
+                </fieldset>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                    Estas seguro?
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary" >Enviar pedido</button>
+              </form>
+
+        </div>
+    </div>
+     <!-- footer -->
+     <footer class="bg-dark text-center text-white">
+
+      <section class="p-5">
+      <div>
+          <a href="/index.html" class="me-4 text-reset m-2">
+            <i>Inicio</i>
+          </a>
+          <a href="/Producto.html" class="me-4 text-reset m-2">
+            <i>Sabores</i>
+          </a>
+          <a href="/Contacto.html" class="me-4 text-reset m-2">
+            <i>Contacto</i>
+          </a>
+          <a href="/Pedido.html" class="me-4 text-reset m-2">
+            <i>Pedido</i>
+          </a>
+          <a href="/sobre.html" class="me-4 text-reset m-2">
+            <i>Historia</i>
+          </a>
+      
+      </div>
+       <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://es-la.facebook.com/" role="button">
+              <i class="fab fa-facebook-f"></i>
+          </a>
+      
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button">
+              <i class="fab fa-instagram"></i>
+          </a>
+
+          <!-- Whatsapp -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.whatsapp.com/" role="button">
+              <i class="fab fa-whatsapp"></i>
+          </a>
+      </section>
+      <!-- Section: Redes sociales -->
+  </div>
+  <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright
+          <a class="text-white" href="#">Helados Pepe</a>
+      </div>
+      <!-- Copyright -->
+  </footer>
+ 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script script>
+      AOS.init();
+  </script>
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</div>
+</body>
+</html>

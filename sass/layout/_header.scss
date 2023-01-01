@@ -1,0 +1,50 @@
+.header {
+	grid-area: header;
+	padding: 1.25em;
+	background: $white ;
+	box-shadow: 0px 0px 70px $coral;
+	
+    .logo {
+		margin-bottom: 1.25em;
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: 3px;
+	}
+}
+
+.logo h1 {
+	font-size: 1.875em;
+}
+
+.logo .iniciales-logo {
+	padding: 0.3125em;
+	border: 2px solid $black;
+	display: inline-block;
+	font-size: 1em;
+	margin-bottom: 0.9375em;
+}
+
+.menu {
+	border-top: 1px solid $black;
+	border-bottom: 1px solid $black;
+	display: flex;
+	justify-content: space-between;
+	
+    a {
+		padding: 0.625em;
+		color: $black  ;
+		display: block;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		width: 100%;
+		text-align: center;
+		transition: 0.2s ease all;
+		font-size: 1em;
+		
+        &:hover {
+			background: $black ;
+			color: $white  ;
+		}
+	}
+}

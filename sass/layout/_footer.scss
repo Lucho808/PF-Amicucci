@@ -1,0 +1,35 @@
+footer {
+	font-size: 1.25em;
+	display: block;
+	min-height: 3.75rem;
+	background: $grey;
+	text-align: center;
+	padding-top: 0.9375em;
+	border-top: 5px solid ;
+	margin-top: 1.25em;
+
+    /* media queries (phones, 576px and up) */
+    @media (max-width: $mediaPhones-576) {
+        font-size: 12px;
+    }
+}
+
+.contenedor-footer {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 3.125em;
+	border-bottom: 2px solid $white;
+}
+
+.content-foo {
+	text-align: center;
+	
+    h4 {
+		color: $black;
+		border-bottom: 3px outset $purpureo;
+		padding-bottom: 0.625em;
+		font-size: 1.25em;
+	}
+}

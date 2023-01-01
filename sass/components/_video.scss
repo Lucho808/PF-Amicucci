@@ -1,0 +1,16 @@
+/* Comienza: Video Responsive */
+.video-responsive {
+	overflow: hidden;
+	padding-bottom: 400px; /* Controla la altura del video */
+	position: relative;
+	height: 0;
+
+	iframe {
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+	}
+}
+/* Fin: Video Responsive */
